@@ -4,7 +4,16 @@ version = "0.1.0"
 edition = "2021"
 description = "A CLI tool for mounting and unmounting LUKS encrypted volumes"
 authors = ["zeroday0619"]
-license = "Menhera Open Source License"
+license-file = "LICENSE"
+repository = "https://github.com/zeroday0619/luksctl"
+homepage = "https://github.com/zeroday0619/luksctl"
+readme = "README.md"
+keywords = ["luks", "encryption", "mount", "cryptsetup", "cli"]
+categories = ["command-line-utilities", "filesystem"]
+exclude = [
+    ".github/*",
+    ".gitignore",
+]
 
 [[bin]]
 name = "luks_mount"
