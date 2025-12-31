@@ -1,5 +1,8 @@
 # luksctl
 
+[![Crates.io](https://img.shields.io/crates/v/luksctl.svg)](https://crates.io/crates/luksctl)
+[![Downloads](https://img.shields.io/crates/d/luksctl.svg)](https://crates.io/crates/luksctl)
+
 A CLI tool for easily mounting and unmounting LUKS encrypted volumes.
 
 [한국어](README.ko.md) | [日本語](README.ja.md)
@@ -14,7 +17,13 @@ A CLI tool for easily mounting and unmounting LUKS encrypted volumes.
 
 ## Installation
 
-### Using Make (Recommended)
+### Using Cargo (Recommended)
+
+```bash
+cargo install luksctl
+```
+
+### Using Make
 
 ```bash
 # Build and install to /usr/local/bin

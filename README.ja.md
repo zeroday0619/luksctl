@@ -1,5 +1,8 @@
 # luksctl
 
+[![Crates.io](https://img.shields.io/crates/v/luksctl.svg)](https://crates.io/crates/luksctl)
+[![Downloads](https://img.shields.io/crates/d/luksctl.svg)](https://crates.io/crates/luksctl)
+
 LUKS暗号化ボリュームを簡単にマウント・アンマウントするためのCLIツールです。
 
 [English](README.md) | [한국어](README.ko.md)
@@ -14,7 +17,13 @@ LUKS暗号化ボリュームを簡単にマウント・アンマウントする�
 
 ## インストール
 
-### Makeを使用（推奨）
+### Cargoを使用（推奨）
+
+```bash
+cargo install luksctl
+```
+
+### Makeを使用
 
 ```bash
 # ビルドして/usr/local/binにインストール

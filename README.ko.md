@@ -1,5 +1,8 @@
 # luksctl
 
+[![Crates.io](https://img.shields.io/crates/v/luksctl.svg)](https://crates.io/crates/luksctl)
+[![Downloads](https://img.shields.io/crates/d/luksctl.svg)](https://crates.io/crates/luksctl)
+
 LUKS 암호화 볼륨을 쉽게 마운트/언마운트하는 CLI 도구입니다.
 
 [English](README.md) | [日本語](README.ja.md)
@@ -14,7 +17,13 @@ LUKS 암호화 볼륨을 쉽게 마운트/언마운트하는 CLI 도구입니다
 
 ## 설치
 
-### Make 사용 (권장)
+### Cargo 사용 (권장)
+
+```bash
+cargo install luksctl
+```
+
+### Make 사용
 
 ```bash
 # 빌드 후 /usr/local/bin에 설치
